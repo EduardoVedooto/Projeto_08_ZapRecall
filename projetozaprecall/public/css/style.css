@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    color: #000000;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+
+    margin: 0 auto;
+}
+
+.tela-inicial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.logo {
+    
+    padding-bottom: 43px;
+}
+
+.elemento-botao{
+   width: 345px;
+   height: 72px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+    border: 3px solid #FFEF61;
+    border-radius: 12px;
+
+    font-weight: bold;
+    
+}
