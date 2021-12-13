@@ -1,17 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #E5E5E5;
-    color: #000000;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-
-    margin: 0 auto;
-}
-
 .tela-inicial {
     display: flex;
     flex-direction: column;
@@ -38,6 +24,9 @@ body {
     border: 3px solid #FFEF61;
     border-radius: 12px;
 
-    font-weight: bold;
-    
+    font-weight: bold; 
+}
+
+.elemento-botao:hover{
+    cursor: pointer;
 }
