@@ -1,0 +1,14 @@
+img {
+    cursor: pointer;
+}
+
+.footervirarflashcard {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 1vh;
+
+    width: 100%;
+    height: 10vh;
+}

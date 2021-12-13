@@ -24,7 +24,7 @@ section{
     width: 392px;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 
     margin: 0 auto;
@@ -36,4 +36,36 @@ section{
     border-radius: 12px;
 
     font-weight: 700;
+}
+
+.status {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 1vh;
+    height: 5vh;
+    width: 100%;
+
+} 
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 46vh;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-right: 1vh;
+
+    width: 100%;
+    height: 10vh;
 }
