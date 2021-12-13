@@ -8,7 +8,7 @@ export default function TelaDefault(props){
                     <h2>1/8</h2>
                 </div>
                 <div className="texto">
-                    
+                    <h1>O que é JSX?</h1>
                 </div>
                 <footer>
                     {props.children}

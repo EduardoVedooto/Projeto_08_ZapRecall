@@ -21,12 +21,3 @@ export default function TelaFlashCard(){
         </div>
     );
 }
-
-/*
-<header>
-    <img src={logomini} />
-</header>
-<section className="section">
-    <h1>O que é JSX?</h1>
-</section>
-*/
